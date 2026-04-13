@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "易欧 Web3钱包 | 欧意OKX 去中心化多链钱包 (DeFi/NFT)",
+    "description": "易欧 Web3钱包官网。支持80+公链的去中心化钱包。欧意OKX多链钱包，聚合DEX、NFT市场，自管私钥，安全便捷。"
+  },
+  "hero": {
+    "title": "易欧 Web3 钱包",
+    "subtitle": "您进入去中心化世界的万能钥匙 | 一个钱包，玩转 Web3",
+    "cta": "连接钱包"
+  },
+  "seoArticle": {
+    "title": "易欧 Web3 钱包：DeFi 与 NFT 的终极入口",
+    "sections": [
+      {
+        "heading": "一、什么是 Web3 钱包？为什么它比交易所更安全？",
+        "content": "\n                    <p>当您把钱存在交易所（CEX）时，资产的实际控制权在平台手里（类似于把钱存银行）。而 <strong>Web3 钱包</strong> 是非托管钱包，资产控制权完全在您自己手里（类似于把现金放在自家的保险柜），这就是\"私钥即资产\"。</p>\n                    <p>易欧 Web3 钱包支持 <strong>MPC (多方计算) 技术</strong>，这是一种无私钥技术。它把私钥碎片化存储，即便手机丢了，黑客也无法通过单一碎片盗走资产。它完美解决了\"不仅要记助记词，还要怕助记词丢了\"的痛点。</p>"
+      },
+      {
+        "heading": "二、核心功能实战教程",
+        "content": "\n                    <p><strong>1. 跨链兑换 (DEX Aggregator)</strong></p>\n                    <p>比如您想把 TRON 链上的 USDT 换成 Ethereum 链上的 ETH。以前需要充值回交易所->卖出->买入->提现，手续费极高且慢。现在使用 易欧 Web3 钱包的\"闪兑\"功能，系统会自动寻找最优路径（比如通过 Uniswap 或 Curve），一键完成跨链，滑点极低。</p>\n                    <p><strong>2. NFT 市场聚合</strong></p>\n                    <p>想买无聊猿 (BAYC) 或 Azuki？不需要去 OpenSea。易欧 NFT 市场聚合了 OpenSea、LooksRare、X2Y2 等主流平台的挂单。您可以用 ETH、USDT 甚至 BNB 直接购买，不仅能比价，还能节省 Gas 费。</p>\n                    <p><strong>3. DeFi 理财</strong></p>\n                    <p>不需要复杂的交互。在\"赚币\"板块，您可以直接把 USDT 存入 Aave、Compound 等顶级借贷协议，赚取真实的链上收益，没有任何中间商赚差价。</p>"
+      },
+      {
+        "heading": "三、安全警示：如何防止被盗？",
+        "content": "\n                    <p>Web3 世界是黑暗森林，最大的风险是<strong>\"恶意授权\"</strong>。</p>\n                    <ul>\n                        <li><strong>警惕空投诱惑：</strong> 钱包里突然多了一些不知名的币？千万不要去试图交易它们！这通常是\"授权骗局\"，一旦您授权合约调用您的钱包，里面的 USDT 会瞬间被转走。</li>\n                        <li><strong>认准官方链接：：</strong> 不要点击得报群里的链接。连接钱包前，仔细检查网站域名。</li>\n                        <li><strong>定期清理授权：：</strong> 在 易欧 钱包的安全中心，您可以一键检测并取消对高风险合约的授权。建议每个月清理一次。</li>\n                    </ul>"
+      }
+    ]
+  },
+  "intro": {
+    "title": "不仅仅是钱包",
+    "content": [
+      "<strong>易欧 Web3 钱包</strong> 是当前市场上最强大的异构多链钱包，支持 Ethereum, Solana, Bitcoin (Ordinals), TRON, Polygon 等 <strong>80+ 条公链</strong>。",
+      "它首创了 <strong>MPC 无私钥模式</strong>，让您无需备份复杂的助记词，仅需登录 易欧 账户即可轻松恢复钱包，同时兼顾了去中心化的安全性。"
+    ]
+  },
+  "features": {
+    "title": "Web3 钱包功能一览",
+    "items": [
+      {
+        "title": "全链聚合",
+        "description": "一个钱包管理 BTC、ETH、SOL 等全网资产，告别切链烦恼。"
+      },
+      {
+        "title": "DEX 交易",
+        "description": "智能路由算法，帮您在全网寻找最优汇率，滑点更低。"
+      },
+      {
+        "title": "NFT 市场",
+        "description": "0手需费聚合 OpenSea 等主流平台，支持批量购买和挂单。"
+      },
+      {
+        "title": "DApp 浏览器",
+        "description": "在手机上即可访问 Uniswap, Curve, Opensea 等数千个去中心化应用。"
+      }
+    ]
+  }
+}
