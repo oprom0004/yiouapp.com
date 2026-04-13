@@ -11,7 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
         title: androidPage.metadata?.title || '',
         description: androidPage.metadata?.description || '',
         alternates: {
-            canonical: 'https://yiouapp.com/',
+            canonical: 'https://yiouapp.com/yiou-app/android/',
         },
     };
 }

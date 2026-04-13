@@ -11,7 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
         title: okbPage.metadata.title,
         description: okbPage.metadata.description,
         alternates: {
-            canonical: 'https://yiouapp.com/',
+            canonical: 'https://yiouapp.com/okb/',
         },
     };
 }

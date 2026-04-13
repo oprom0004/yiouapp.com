@@ -11,7 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
         title: registerPage.metadata.title,
         description: registerPage.metadata.description,
         alternates: {
-            canonical: 'https://yiouapp.com/',
+            canonical: 'https://yiouapp.com/yiou-zhuce/',
         },
     };
 }

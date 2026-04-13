@@ -55,7 +55,7 @@ export default function Header() {
                     <div className="w-8 h-8 relative bg-white rounded flex items-center justify-center">
                         <span className="text-black font-bold text-xl">X</span>
                     </div>
-                    <span className="text-white font-bold text-xl tracking-tight">OKX中文</span>
+                    <span className="text-white font-bold text-xl tracking-tight">易欧</span>
                 </Link>
 
                 {/* Desktop Navigation */}

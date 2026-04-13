@@ -11,7 +11,7 @@ export async function generateMetadata(): Promise<Metadata> {
         title: aboutPage.metadata.title,
         description: aboutPage.metadata.description,
         alternates: {
-            canonical: 'https://yiouapp.com/',
+            canonical: 'https://yiouapp.com/yiou-jiaoyisuo/',
         },
     };
 }

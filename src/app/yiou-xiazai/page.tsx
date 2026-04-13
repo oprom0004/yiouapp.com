@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
         title: downloadCenterPage.metadata.title,
         description: downloadCenterPage.metadata.description,
         alternates: {
-            canonical: 'https://yiouapp.com/',
+            canonical: 'https://yiouapp.com/yiou-xiazai/',
         },
     };
 }
