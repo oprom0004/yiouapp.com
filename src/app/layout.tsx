@@ -37,6 +37,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN">
+      <head>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="bca9b1ae-4fbb-4d9d-816a-85282ac408ce"></script>
+      </head>
       <body className="antialiased font-sans">
         <Providers>
           <Header />
