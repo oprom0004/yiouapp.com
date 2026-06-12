@@ -1,48 +1,55 @@
 {
   "metadata": {
-    "title": "易欧电脑版下载_欧意OKX  PC客户端官方版(Windows/Mac)",
-    "description": "下载易欧电脑版客户端。专为专业交易员设计，支持多屏显示、自定义布局。欧意OKX桌面版(PC Client)，比网页版更稳定流畅。"
+    "title": "易欧电脑版下载 | OKX Windows与macOS客户端",
+    "description": "易欧OKX电脑客户端下载说明，包含 Windows、macOS 安装、适用场景和常见问题。"
   },
   "hero": {
-    "title": "易欧 电脑客户端",
-    "subtitle": "专业级操盘体验 | 毫秒级极速撮合 | Windows & macOS",
-    "cta": "下载 PC 客户端"
+    "title": "易欧电脑版下载",
+    "subtitle": "适合长时间看盘、交易和多窗口操作的桌面客户端",
+    "cta": "下载电脑版"
+  },
+  "intro": {
+    "title": "电脑版适合谁使用",
+    "content": [
+      "如果你经常在电脑上看行情、下单或管理多个页面，桌面客户端会比网页更稳定，也更适合长时间使用。",
+      "安装前请确认系统版本。Windows 建议使用 Windows 10 或更高版本，macOS 用户需要根据 Intel 或 Apple Silicon 芯片选择合适版本。"
+    ]
   },
   "seoArticle": {
-    "title": "易欧 桌面客户端：专业交易员的终极武器",
+    "title": "安装与使用建议",
     "sections": [
       {
-        "heading": "一、为何由于浏览器？桌面版的硬核优势",
-        "content": "\n                    <p>仅仅是\"屏幕大\"并不是桌面版的全部优势。对于合约高频交易者来说，桌面版是吃饭的家伙：</p>\n                    <ul>\n                        <li><strong>更低的延迟：</strong> 浏览器（Chrome/Edge）本身极其消耗内存，且容易被插件干扰。易欧 客户端基于底层语言优化，网络请求绕过浏览器堆栈，直连撮合引擎，延迟平均降低 30%。</li>\n                        <li><strong>抗网络封锁：</strong> 客户端内置了自动代理选路功能。当某个导致网页无法访问的 DNS 污染发生时，客户端会自动切换备用线路，保证您永不掉线。</li>\n                        <li><strong>内存占用更低：</strong> 相比开着十几个网页标签页的 Chrome，易欧 客户端在长时间运行下的内存泄漏控制得更好，不会出现\"卡顿\"或\"假死\"。</li>\n                    </ul>"
+        "heading": "一、Windows 安装说明",
+        "content": "\n                    <ol>\n                        <li>下载安装包后双击运行。</li>\n                        <li>如系统提示安全确认，确认来源后选择继续。</li>\n                        <li>安装完成后登录账户，并完成双重验证。</li>\n                    </ol>\n                    <p>如果启动失败，可更新系统组件或以管理员身份运行安装程序。</p>"
       },
       {
-        "heading": "二、高级功能：自定义布局与多屏监控",
-        "content": "\n                    <p>桌面版允许您像搭积木一样定制交易界面：</p>\n                    <p><strong>1. 分屏显示：</strong> 您可以把 K 线图拖拽到左边的屏幕，把下单板和深度图拖拽到右边的屏幕。支持弹出独立窗口，最大支持 4 屏联动。</p>\n                    <p><strong>2. 模块化布局：</strong> 不喜欢默认的排版？您可以随意调整\"最新成交\"、\"委托列表\"、\"资产栏\"的大小和位置。所有设置会自动保存到云端，换台电脑也能即使同步。</p>\n                    <p><strong>3. 快捷键下单 (Hotkeys)：</strong> 只有 PC 端支持全键盘操作。您可以设置 \"Ctrl+B\" 为市价买入，\"Ctrl+S\" 为市价卖出，或者设置一键撤单。在极端行情下，键盘永远比鼠标快。</p>"
+        "heading": "二、macOS 安装说明",
+        "content": "\n                    <p>macOS 用户需要注意芯片版本。Apple Silicon 设备优先选择 arm64 版本，Intel 设备选择 x64 版本。若系统提示无法打开，可在“系统设置 - 隐私与安全性”中确认允许打开。</p>"
       },
       {
-        "heading": "三、常见安装问题排查",
-        "content": "\n                    <p><strong>Windows 用户：</strong></p>\n                    <ul>\n                        <li><strong>安装闪退？</strong> 请右键点击安装包，选择\"以管理员身份运行\"。</li>\n                        <li><strong>提示 DLL 缺失？</strong> 通常是因为您的 Windows 版本过老（如 Win7）。建议安装 Visual C++ 运行库合集，或升级到 Windows 10/11。</li>\n                    </ul>\n                    <p><strong>Mac 用户：</strong></p>\n                    <ul>\n                        <li><strong>无法打开？</strong> 请检查是否给予了软件\"完全磁盘访问权限\"。</li>\n                        <li><strong>M1 芯片卡顿？</strong> 请确认您下载的是 ARM64 版本而不是 x64 版本，转译运行会导致性能下降。</li>\n                    </ul>"
+        "heading": "三、桌面端使用场景",
+        "content": "\n                    <ul>\n                        <li>长时间查看行情和盘口。</li>\n                        <li>同时打开多个交易或资产页面。</li>\n                        <li>配合电脑浏览器、表格和行情工具使用。</li>\n                    </ul>"
       }
     ]
   },
   "features": {
-    "title": "桌面版专属特性",
+    "title": "电脑版特点",
     "items": [
       {
-        "title": "极致性能",
-        "description": "原生应用架构，内存占用减少 40%，启动速度提升 50%。"
+        "title": "大屏操作",
+        "description": "更适合查看图表、盘口、订单和资产明细。"
       },
       {
-        "title": "键盘流操作",
-        "description": "全功能快捷键支持，双手不离键盘即可完成极速下单。"
+        "title": "稳定运行",
+        "description": "适合长时间使用，减少浏览器插件干扰。"
       },
       {
-        "title": "价格预警",
-        "description": "桌面右下角弹窗提醒与声音警报，工作看盘两不误。"
+        "title": "多窗口配合",
+        "description": "可以和行情工具、表格、资料页面一起使用。"
       },
       {
-        "title": "安全无痕",
-        "description": "支持无痕模式启动，本地不留任何账号缓存数据。"
+        "title": "系统提醒",
+        "description": "部分提醒可通过桌面通知展示，便于及时处理。"
       }
     ]
   }

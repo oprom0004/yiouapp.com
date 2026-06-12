@@ -29,15 +29,15 @@ export default function Footer() {
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="space-y-8">
                         <div className="flex items-center gap-2">
-                            <div className="w-8 h-8 bg-white text-black font-extrabold flex items-center justify-center rounded text-xl">X</div>
-                            <span className="text-white font-bold text-xl">OKX中文</span>
+                            <div className="w-8 h-8 bg-blue-600 text-white font-extrabold flex items-center justify-center rounded text-lg">易</div>
+                            <span className="text-white font-bold text-xl">易欧导航</span>
                         </div>
                         <p className="text-sm leading-6 text-slate-400">
                             构建更高效、更透明的未来金融体系。全球领先的数字资产服务商。
                         </p>
                         <div className="flex gap-4">
                             <GatewayTrigger className="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all">
-                                立即注册领盲盒
+                                查看注册指南
                             </GatewayTrigger>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-                    <p className="text-xs leading-5 text-slate-500">&copy; 2026 OKX Technology Company Limited. All rights reserved.</p>
+                    <p className="text-xs leading-5 text-slate-500">&copy; 2026 yiouapp.com. All rights reserved.</p>
                 </div>
             </div>
         </footer>

@@ -50,15 +50,13 @@ export default function Header() {
     return (
         <header className="fixed top-0 left-0 right-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-slate-800">
             <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-                {/* Logo */}
                 <Link href="/" className="flex items-center space-x-2" onClick={closeMenu}>
-                    <div className="w-8 h-8 relative bg-white rounded flex items-center justify-center">
-                        <span className="text-black font-bold text-xl">X</span>
+                    <div className="w-8 h-8 relative bg-blue-600 rounded flex items-center justify-center">
+                        <span className="text-white font-bold text-lg">易</span>
                     </div>
-                    <span className="text-white font-bold text-xl tracking-tight">易欧</span>
+                    <span className="text-white font-bold text-xl tracking-tight">易欧导航</span>
                 </Link>
 
-                {/* Desktop Navigation */}
                 <nav className="hidden md:flex items-center space-x-6" ref={dropdownRef}>
                     {navItems.map((item) =>
                         item.children ? (
@@ -104,10 +102,9 @@ export default function Header() {
                     )}
                 </nav>
 
-                {/* Desktop Actions */}
                 <div className="hidden md:flex items-center space-x-4">
                     <GatewayTrigger className="text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center">
-                        访问官网 <span className="ml-1">&rarr;</span>
+                        访问网站 <span className="ml-1">&rarr;</span>
                     </GatewayTrigger>
                     <Link
                         href="/yiou-zhuce"
@@ -117,7 +114,6 @@ export default function Header() {
                     </Link>
                 </div>
 
-                {/* Mobile Menu Button */}
                 <button
                     className="md:hidden p-2 text-slate-300 hover:text-white hover:bg-slate-800 rounded-lg transition-colors"
                     onClick={toggleMenu}
@@ -127,7 +123,6 @@ export default function Header() {
                 </button>
             </div>
 
-            {/* Mobile Navigation Menu */}
             {isMenuOpen && (
                 <div className="md:hidden absolute top-16 left-0 right-0 bg-[#0f172a] border-b border-slate-800 shadow-xl">
                     <nav className="flex flex-col p-4 space-y-1">
@@ -145,6 +140,7 @@ export default function Header() {
                                         <button
                                             onClick={() => setOpenDropdown(openDropdown === item.label ? null : item.label)}
                                             className="p-3 text-slate-400 hover:text-white transition-colors"
+                                            aria-label="展开子菜单"
                                         >
                                             <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${openDropdown === item.label ? 'rotate-180' : ''}`} />
                                         </button>
@@ -177,7 +173,7 @@ export default function Header() {
                         )}
                         <div className="pt-4 mt-2 border-t border-slate-800 grid grid-cols-2 gap-3">
                             <GatewayTrigger className="bg-slate-800 text-white py-3 rounded-lg text-center font-medium hover:bg-slate-700 transition-colors">
-                                访问官网
+                                访问网站
                             </GatewayTrigger>
                             <Link
                                 href="/yiou-zhuce"

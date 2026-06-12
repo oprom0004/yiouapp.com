@@ -4,24 +4,24 @@ const currentYear = new Date().getFullYear();
 
 const homepage: PageSEOContent = {
     metadata: {
-        title: 'OKX官网入口 | 欧意OKEx交易所APP下载(' + currentYear + '最新版)',
-        description: currentYear + '最新OKX中文官方网址通道。提供欧意OKEx交易所电脑版客户端、APP下载(Android/iOS)、Web3钱包注册教程。全球领先的比特币交易平台，安全、稳定。',
+        title: 'OKX网站入口 | 欧意OKEx交易所APP下载(' + currentYear + '最新版)',
+        description: currentYear + '最新OKX中文网址通道。提供欧意OKEx交易所电脑版客户端、APP下载(Android/iOS)、Web3钱包注册教程。全球领先的比特币交易平台，安全、稳定。',
     },
     jsonLd: {
-        name: 'OKX中文官方站',
+        name: 'OKX中文平台站',
         url: 'https://yiouapp.com',
-        description: currentYear + '最新OKX交易所官方网址入口与APP下载指南',
+        description: currentYear + '最新OKX交易所网址入口与APP下载指南',
     },
     hero: {
-        title: 'OKX交易所官方网址入口',
-        subtitle: '安全直连全球顶级数字货币交易平台 | 极速稳定 | 官方APP下载指引',
-        cta: '立刻访问OKX官网',
+        title: 'OKX交易所网址入口',
+        subtitle: '安全直连全球顶级数字货币交易平台 | 极速稳定 | 正版APP下载指引',
+        cta: '立刻访问OKX网站',
     },
     intro: {
-        title: currentYear + ' OKX中文交易所官方入口：通往Web3数字金融的桥梁',
+        title: currentYear + ' OKX中文交易所访问入口：通往Web3数字金融的桥梁',
         content: [
-            `作为全球领先的加密资产交易平台，<strong>OKX (欧易)</strong> —— 原名 OKEx，自 2017 年成立以来，始终致力于为用户提供安全、专业的数字资产交易服务。${currentYear}年，<strong>OKX中文</strong>品牌全面升级，其官方网址采用了最新的分布式节点加速技术，确保中国区用户无论身处何地，都能毫秒级访问本站提供的<strong>OKX官方线路</strong>。`,
-            `<strong>OKX交易所</strong>不仅仅是一个买卖比特币 (BTC)、以太坊 (ETH) 的场所，它构建了一个包含币币交易、合约衍生品、以及 Web3 去中心化应用的完整生态系统。对于中文用户而言，通过正规渠道获取<strong>正版OKX官方APP下载</strong>渠道，是享受官方级安全保障、开启数字财富增值的关键。`
+            `作为全球领先的加密资产交易平台，<strong>OKX (欧易)</strong> —— 原名 OKEx，自 2017 年成立以来，始终致力于为用户提供安全、专业的数字资产交易服务。${currentYear}年，<strong>OKX中文</strong>品牌全面升级，其网址采用了最新的分布式节点加速技术，确保中国区用户无论身处何地，都能毫秒级访问本站提供的<strong>OKX访问线路</strong>。`,
+            `<strong>OKX交易所</strong>不仅仅是一个买卖比特币 (BTC)、以太坊 (ETH) 的场所，它构建了一个包含币币交易、合约衍生品、以及 Web3 去中心化应用的完整生态系统。对于中文用户而言，通过正规渠道获取<strong>正版OKX正版APP下载</strong>渠道，是享受平台级安全保障、开启数字财富增值的关键。`
         ],
     },
     features: {
@@ -50,15 +50,15 @@ const homepage: PageSEOContent = {
         content: `进入 ${currentYear} 年，<strong>OKEx</strong> 品牌升级为 <strong>OKX</strong> 的战略成效显著。公司已在全球多个主要金融司法管辖区获得了合规牌照。OKX 推出的公链 X Layer（原 OKT Chain 升级版），基于 ZK-Rollup 技术，完美兼容以太坊 EVM，为开发者提供了低成本、高性能的链上构建环境。无论市场习惯称呼其为欧意、OKEx 还是 OKX，该平台始终是探索数字金融世界的最佳基础设施。`
     },
     faq: {
-        title: '常见问题解答 (FAQ) - OKX官方入口与使用指南',
+        title: '常见问题解答 (FAQ) - OKX访问入口与使用指南',
         items: [
             {
-                question: 'Q1: OKX官网访问受限怎么办？',
-                answer: `请放心，<strong>OKX交易所</strong>运营稳定，全球业务正常开展。官网无法访问通常是因为本地网络运营商的连接问题或DNS解析波动。<br/>
+                question: 'Q1: OKX网站访问受限怎么办？',
+                answer: `请放心，<strong>OKX交易所</strong>运营稳定，全球业务正常开展。网站无法访问通常是因为本地网络运营商的连接问题或DNS解析波动。<br/>
                 <ul class="list-disc pl-5 space-y-1 mt-2">
                     <li><strong>解决方法一：</strong> 尝试切换手机网络（如从 WiFi 切换到 4G/5G）。</li>
                     <li><strong>解决方法二：</strong> 使用网络加速工具，优化网络连接环境。</li>
-                    <li><strong>解决方法三：</strong> 使用本页面提供的"最新官方备用域名"或直接下载 OKX APP，APP 内置了自动优选线路功能，连接更稳定。</li>
+                    <li><strong>解决方法三：</strong> 使用本页面提供的"最新备用域名"或直接下载 OKX APP，APP 内置了自动优选线路功能，连接更稳定。</li>
                 </ul>`
             },
             {
@@ -68,7 +68,7 @@ const homepage: PageSEOContent = {
             {
                 question: 'Q3: 安装 APP 时提示"未知来源"或"风险"？',
                 answer: `这是 Android 系统对所有非应用商店来源（APK）安装包的标准安全提示，属于正常现象。<br />
-                <strong>解决方案：</strong> 只要您是从本站或 OKX 官网下载的官方包，请放心安装。安装时请授权"允许来自此来源的应用"，并继续安装即可。如果您使用的是 iOS 设备，请参考本站的"App Store下载指引"获取海外 Apple ID 进行正版下载。`
+                <strong>解决方案：</strong> 只要您是从本站或 OKX 网站下载的安装包，请放心安装。安装时请授权"允许来自此来源的应用"，并继续安装即可。如果您使用的是 iOS 设备，请参考本站的"App Store下载指引"获取海外 Apple ID 进行正版下载。`
             },
             {
                 question: 'Q4: 什么是"OKX Web3 钱包"？和交易所账户有什么区别？',
@@ -86,7 +86,7 @@ const homepage: PageSEOContent = {
 const appPage: SubPageContent = {
     metadata: {
         title: 'OKX APP下载_欧意OKEx安卓/iOS手机客户端(' + currentYear + '最新)',
-        description: 'OKX官网APP下载中心。支持Android/iOS手机下载欧意OKEx客户端。官方手机版，随时随地进行数字资产交易，一键下载畅享Web3体验。',
+        description: 'OKX网站APP下载中心。支持Android/iOS手机下载欧意OKEx客户端。手机版，随时随地进行数字资产交易，一键下载畅享Web3体验。',
     },
     hero: {
         title: 'OKX APP 下载 (' + currentYear + '最新版)',
@@ -132,10 +132,10 @@ const appPage: SubPageContent = {
             {
                 heading: '二、下载与安装帮助',
                 content: `
-                    <p>作为去中心化金融的入口，APP 的安全性至关重要。使用非官方渠道下载的应用可能会导致资产风险或功能缺失。为了保障您的资金安全，请务必认准官方发布版本。</p>
-                    <p>官方 APP 具备以下不可替代的核心优势：</p>
+                    <p>作为去中心化金融的入口，APP 的安全性至关重要。使用非正规渠道下载的应用可能会导致资产风险或功能缺失。为了保障您的资金安全，请务必认准发布版本。</p>
+                    <p>正版 APP 具备以下不可替代的核心优势：</p>
                     <ul>
-                        <li><strong>资产安全保障：</strong>官方 APP 采用行业领先的私钥加密技术，资产自主掌控，拒绝任何未经授权的访问。</li>
+                        <li><strong>资产安全保障：</strong>正版 APP 采用行业领先的私钥加密技术，资产自主掌控，拒绝任何未经授权的访问。</li>
                         <li><strong>生物识别登录：</strong>支持 FaceID 和指纹解锁，便捷登录的同时提供额外的安全屏障。</li>
                         <li><strong>内置 Web3 钱包：</strong>原生集成的多链钱包，让您无需在多个应用间切换，即可无缝体验 DeFi 和 NFT 市场。</li>
                         <li><strong>实时行情推送：</strong>利用系统级通知权限，第一时间获取价格异动提醒，不错过任何市场机会。</li>
@@ -145,7 +145,7 @@ const appPage: SubPageContent = {
                 heading: '三、Android 安卓版通用安装教程',
                 content: `
                     <p>安卓系统的开放性允许用户自行安装应用。由于各个手机品牌的系统策略不同，有时会提示"外部来源"或"未知应用"。以下是通用的安装步骤：</p>
-                    <p><strong>Step 1: 下载官方 APK 文件</strong></p>
+                    <p><strong>Step 1: 下载APK 文件</strong></p>
                     <p>点击本页面的"下载 Android 版"按钮，保存 <code>okx-android-${currentYear}.apk</code> 文件到手机。建议使用 Chrome 浏览器下载。</p>
                     <p><strong>Step 2: 绕过系统安装限制 (推荐)</strong></p>
                     <p>如果您在安装过程中遇到系统提示无法继续，可以使用<strong>"飞行模式法"</strong>：</p>
@@ -162,7 +162,7 @@ const appPage: SubPageContent = {
                     <p>很多新手用户在 App Store 搜索"OKX"或"欧意"，发现全是即使通讯软件或无关的小游戏。这是因为根据中国区法律法规，App Store 中国区（国区 ID）已下架所有交易所应用。您<strong>必须拥有一个海外 Apple ID</strong> 才能下载。</p>
                     <p><strong>方法 A：自行注册海外 ID (推荐，最安全)</strong></p>
                     <ol>
-                        <li>访问苹果官网 apple.com，拉到底部选择地区为"United States" (美国) 或 "Hong Kong" (香港)。</li>
+                        <li>访问苹果网站 apple.com，拉到底部选择地区为"United States" (美国) 或 "Hong Kong" (香港)。</li>
                         <li>点击 "Create Your Apple ID"。</li>
                         <li>填写信息：需要一个从未注册过 Apple ID 的邮箱，手机号可以使用中国大陆手机号 (+86)。</li>
                         <li>地址填写：这是关键。去 Google 地图找一个真实的美国或香港地址（包含街道、城市、邮编、电话）。例如找一家当地的酒店地址。</li>
@@ -178,7 +178,7 @@ const appPage: SubPageContent = {
                     <ol>
                         <li>登录海外 ID 后，商店界面会变成英文或繁体中文。</li>
                         <li>搜索关键词 <strong>"OKX"</strong>。</li>
-                        <li>认准开发者为 <strong>"OKX Technology"</strong>，图标为黑底白格 Logo 的应用。</li>
+                        <li>认准开发者为 <strong>"OKX Technology"</strong>，图标为黑底白格 图标 的应用。</li>
                         <li>点击 "Get" 或下载图标。</li>
                         <li>下载完成后，您可以切回自己的国区 ID，APP 依然可以正常更新和使用。</li>
                     </ol>`
@@ -239,8 +239,8 @@ const appPage: SubPageContent = {
 
 const registerPage: SubPageContent = {
     metadata: {
-        title: 'OKX注册官网入口_欧意OKEx开户流程',
-        description: 'OKX账户注册教程。新手如何注册欧意OKEx账户？身份认证(KYC)流程详解。官方注册通道，现在注册并完成认证，最高可领取$60,000数字货币盲盒奖励。',
+        title: 'OKX注册网站入口_欧意OKEx开户流程',
+        description: 'OKX账户注册教程。新手如何注册欧意OKEx账户？身份认证(KYC)流程详解。注册通道，现在注册并完成认证，最高可领取$60,000数字货币盲盒奖励。',
     },
     hero: {
         title: 'OKX 账号注册',
@@ -261,8 +261,8 @@ const registerPage: SubPageContent = {
                 heading: '一、新手注册图文流程',
                 content: `
                     <p>只需 3 分钟，您即可拥有一个功能完整的 OKX 加密货币交易账户。以下是标准注册步骤：</p>
-                    <p><strong>1. 进入官方注册页面</strong></p>
-                    <p>点击本页面顶部的"立刻注册"按钮，或者直接访问 <a href="/yiou-zhuce" class="text-blue-400 hover:text-blue-300">注册页面</a>。请务必确认浏览器地址栏显示的域名是官方地址，防止进入钓鱼网站。</p>
+                    <p><strong>1. 进入注册页面</strong></p>
+                    <p>点击本页面顶部的"立刻注册"按钮，或者直接访问 <a href="/yiou-zhuce" class="text-blue-400 hover:text-blue-300">注册页面</a>。请务必确认浏览器地址栏显示的域名是平台地址，防止进入钓鱼网站。</p>
                     <p><strong>2. 填写账号信息</strong></p>
                     <p>这是最关键的一步。您有两种注册方式可选：</p>
                     <ul>
@@ -310,7 +310,7 @@ const registerPage: SubPageContent = {
                         <li><strong>⚠️ 重要：</strong> 请务必把那 16 位秘钥抄写在纸上备份！如果手机丢了，这是找回账号的唯一凭证。</li>
                     </ul>
                     <p><strong>2. 设置防钓鱼码 (Anti-phishing Code)</strong></p>
-                    <p>为了防止假冒的官方邮件诈骗（比如发邮件说您账户被冻结，诱导您点击病毒链接），您可以设置一个"防钓鱼码"（比如设置成"发财发财"）。设置后，所有真正的 OKX 官方邮件里都会包含这四个字。如果没有这四个字，统统是诈骗邮件，直接删除。</p>`
+                    <p>为了防止假冒的平台邮件诈骗（比如发邮件说您账户被冻结，诱导您点击病毒链接），您可以设置一个"防钓鱼码"（比如设置成"发财发财"）。设置后，所有真正的 OKX 平台邮件里都会包含这四个字。如果没有这四个字，统统是诈骗邮件，直接删除。</p>`
             },
             {
                 heading: '四、新手注册常见问题',
@@ -338,11 +338,11 @@ const registerPage: SubPageContent = {
 const downloadCenterPage: SubPageContent = {
     metadata: {
         title: 'OKX下载中心 | 欧意OKEx全平台客户端 (Win/Mac/安卓/苹果)',
-        description: 'OKX官方下载中心。提供Windows、macOS电脑版客户端，以及欧意OKEx APP(Android/iOS)下载。一站式获取全平台软件与SDK工具包。',
+        description: 'OKX平台下载中心。提供Windows、macOS电脑版客户端，以及欧意OKEx APP(Android/iOS)下载。一站式获取全平台软件与SDK工具包。',
     },
     hero: {
         title: 'OKX 下载中心',
-        subtitle: '一站式获取所有 OKX 官方客户端 | 随时随地，极速交易',
+        subtitle: '一站式获取所有 OKX 客户端 | 随时随地，极速交易',
         cta: '立即下载',
         ctaHref: '#versions'
     },
@@ -350,7 +350,7 @@ const downloadCenterPage: SubPageContent = {
         title: '全平台覆盖，交易无界限',
         content: [
             '无论您使用什么设备，<strong>OKX 下载中心</strong>都能提供最适合您的交易工具。平台覆盖了 iOS、Android 移动端，以及 macOS、Windows 桌面端，甚至提供了 API SDK 供开发者使用。',
-            '所有安装包均通过卡巴斯基、360 等主流杀毒软件检测，包含数字签名，确保 100% 官方正版，安全无毒。'
+            '所有安装包均通过卡巴斯基、360 等主流杀毒软件检测，包含数字签名，确保 100% 正版，安全无毒。'
         ]
     },
     seoArticle: {
@@ -385,12 +385,12 @@ const downloadCenterPage: SubPageContent = {
                         <li><strong>WebSocket API：</strong> 用于获取毫秒级的市场深度和最新成交数据。</li>
                         <li><strong>v5 API：：</strong> OKX 独有的统一账户 API，一套接口即可交易币币、永续、交割、期权所有业务线，极大降低了开发成本。</li>
                     </ul>
-                    <p>SDK 下载：支持 Python, Java, Go, C++, Node.js 等主流语言的官方封装库。</p>`
+                    <p>SDK 下载：支持 Python, Java, Go, C++, Node.js 等主流语言的封装库。</p>`
             }
         ]
     },
     features: {
-        title: '为什么选择官方客户端',
+        title: '为什么选择客户端',
         items: [
             { title: '独立专线', description: '客户端内置 AWS 全球加速线路，即使在网络拥堵时也能极速下单。' },
             { title: '多屏支持', description: '桌面版支持多显示器布局，K线、深度图、订单簿一屏掌握。' },
@@ -402,7 +402,7 @@ const downloadCenterPage: SubPageContent = {
 
 const pcPage: SubPageContent = {
     metadata: {
-        title: 'OKX电脑版下载_欧意OKEx PC客户端官方版(Windows/Mac)',
+        title: 'OKX电脑版下载_欧意OKEx PC客户端版本(Windows/Mac)',
         description: '下载OKX电脑版客户端。专为专业交易员设计，支持多屏显示、自定义布局。欧意OKEx桌面版(PC Client)，比网页版更稳定流畅。',
     },
     hero: {
@@ -461,7 +461,7 @@ const pcPage: SubPageContent = {
 const webPage: SubPageContent = {
     metadata: {
         title: 'OKX网页版登录 | 欧意OKEx在线交易平台入口',
-        description: 'OKX网页版登录入口。无需下载，浏览器直连欧意OKEx官网即可交易。官方网页交易平台，体验专业K线图表与深度流动性。',
+        description: 'OKX网页版登录入口。无需下载，浏览器直连欧意OKEx网站即可交易。平台网页交易平台，体验专业K线图表与深度流动性。',
     },
     hero: {
         title: 'OKX 网页版交易',
@@ -475,7 +475,7 @@ const webPage: SubPageContent = {
             {
                 heading: '一、浏览器安全使用规范',
                 content: `
-                    <p>由于国内网络环境限制，OKX 官网无法直接访问。本站为您提供经过验证的官方入口线路，确保您安全、快速地抵达 OKX 交易平台。使用网页版交易时，请注意以下几点：</p>
+                    <p>由于国内网络环境限制，OKX 网站无法直接访问。本站为您提供经过验证的访问入口线路，确保您安全、快速地抵达 OKX 交易平台。使用网页版交易时，请注意以下几点：</p>
                     <ul>
                         <li><strong>认准可信入口：</strong> 请通过本站提供的链接进入 OKX 网页版，不要点击微信群、QQ群或短信中来路不明的链接。收藏本站地址，下次可以直接访问。</li>
                         <li><strong>使用无痕模式 (Incognito Mode)：</strong> 在公共电脑（网吧、打印店）登录时，建议使用浏览器的"无痕/隐私模式"。关闭窗口后会自动清除 Cookie，保护个人隐私。</li>
@@ -518,7 +518,7 @@ const webPage: SubPageContent = {
 const walletPage: SubPageContent = {
     metadata: {
         title: 'OKX Web3钱包 | 欧意OKEx去中心化多链钱包 (DeFi/NFT)',
-        description: 'OKX Web3钱包官网。支持80+公链的去中心化钱包。欧意OKEx多链钱包，聚合DEX、NFT市场，自管私钥，安全便捷。',
+        description: 'OKX Web3钱包网站。支持80+公链的去中心化钱包。欧意OKEx多链钱包，聚合DEX、NFT市场，自管私钥，安全便捷。',
     },
     hero: {
         title: 'OKX Web3 钱包',
@@ -550,7 +550,7 @@ const walletPage: SubPageContent = {
                     <p>Web3 世界是黑暗森林，最大的风险是<strong>"恶意授权"</strong>。</p>
                     <ul>
                         <li><strong>警惕空投诱惑：</strong> 钱包里突然多了一些不知名的币？千万不要去试图交易它们！这通常是"授权骗局"，一旦您授权合约调用您的钱包，里面的 USDT 会瞬间被转走。</li>
-                        <li><strong>认准官方链接：：</strong> 不要点击得报群里的链接。连接钱包前，仔细检查网站域名。</li>
+                        <li><strong>认准平台链接：：</strong> 不要点击得报群里的链接。连接钱包前，仔细检查网站域名。</li>
                         <li><strong>定期清理授权：：</strong> 在 OKX 钱包的安全中心，您可以一键检测并取消对高风险合约的授权。建议每个月清理一次。</li>
                     </ul>`
             }
@@ -610,7 +610,7 @@ const okbPage: SubPageContent = {
                 heading: '二、通缩模型：回购与销毁',
                 content: `
                     <p>为了保证稀缺性，OKX 承诺拿出<strong>币币交易手续费的 30%</strong> 用以回购市面上的 OKB 并打入黑洞地址进行销毁。</p>
-                    <p>这是一个极具诚意的机制。与原本许诺"季度利润回购"不同，OKX 即使在亏损的情况下也会回购，因为手续费是实打实的收入。这意味着只要有人在交易，OKB 就在不断变少。您可以每个季度在官网查看销毁记录和链上哈希值。</p>`
+                    <p>这是一个极具诚意的机制。与原本许诺"季度利润回购"不同，OKX 即使在亏损的情况下也会回购，因为手续费是实打实的收入。这意味着只要有人在交易，OKB 就在不断变少。您可以每个季度在网站查看销毁记录和链上哈希值。</p>`
             },
             {
                 heading: '三、OKB vs BNB vs HT：平台币横向对比',
@@ -707,7 +707,7 @@ const iosPage: SubPageContent = {
         title: '为什么搜不到 OKX APP ?',
         content: [
             '由于中国区 App Store 政策限制，<strong>OKX (欧易)</strong> 无法在中国大陆地区的苹果应用商店上架。请切换至海外各区的 App Store 进行下载。',
-            '为了您的资产安全，请务必使用<strong>海外 Apple ID</strong> (如: 香港、美国) 登录 App Store，然后才能搜索并下载到官方正版的 OKX APP。'
+            '为了您的资产安全，请务必使用<strong>海外 Apple ID</strong> (如: 香港、美国) 登录 App Store，然后才能搜索并下载到正版的 OKX APP。'
         ]
     },
     seoArticle: {
@@ -720,7 +720,7 @@ const iosPage: SubPageContent = {
                     <p><strong>获取方式有三种：</strong></p>
                     <ul>
                         <li><strong>本站共享 ID（临时）：</strong> 本站可能会不定期提供一些公共 ID 供大家下载使用。但请注意，公共 ID 容易被风控锁定，也存在被锁机的风险，仅建议应急使用。</li>
-                        <li><strong>自行注册（强烈推荐）：</strong> 访问苹果官网注册一个全新的账号，地区选择"香港"。这是最安全、最长久的方法。您只需要一个未注册过苹果账号的邮箱即可。</li>
+                        <li><strong>自行注册（强烈推荐）：</strong> 访问苹果网站注册一个全新的账号，地区选择"香港"。这是最安全、最长久的方法。您只需要一个未注册过苹果账号的邮箱即可。</li>
                         <li><strong>第三方购买：</strong> 在淘宝、拼多多或闲鱼搜索"美区ID"，花费几元钱购买一个成品号。购买后建议立即修改密码和密保问题。</li>
                     </ul>`
             },
@@ -743,7 +743,7 @@ const iosPage: SubPageContent = {
                     <p>切区成功后，操作就和以前一样了：</p>
                     <ol>
                         <li>点击搜索框，输入 <strong>"OKX"</strong>。</li>
-                        <li>认准图标为黑底白格 Logo，开发者名称为 <strong>"OKX Technology"</strong> 的应用。</li>
+                        <li>认准图标为黑底白格 图标，开发者名称为 <strong>"OKX Technology"</strong> 的应用。</li>
                         <li>点击 "Get" 或 "下载" 按钮。</li>
                         <li><strong>重要：</strong> 下载完成后，建议立即退出海外 ID，切回您原本的国区账号。已下载的 OKX APP 可以正常打开、使用，未来有版本更新时，只需再次输入海外 ID 密码验证一下即可。</li>
                     </ol>`
@@ -753,7 +753,7 @@ const iosPage: SubPageContent = {
     features: {
         title: '注意事项',
         items: [
-            { title: 'TestFlight 版', description: '虽然不需要海外ID，但 TestFlight 测试版通常有效期短，建议优先使用 App Store 官方版本。' },
+            { title: 'TestFlight 版', description: '虽然不需要海外ID，但 TestFlight 测试版通常有效期短，建议优先使用 App Store 版本本。' },
             { title: '账户安全', description: '建议只在 App Store 登录海外 ID 进行下载，下载完即可退出，保护个人隐私。' },
             { title: '版本确认', description: '请勿安装任何需要"安装描述文件"或通过浏览器直接安装的 iOS 应用，以免版本失效。' },
             { title: '网络问题', description: '首次打开 APP 如果一直转圈，请尝试切换 WiFi/4G 网络，或开启加速器。' }
@@ -763,19 +763,19 @@ const iosPage: SubPageContent = {
 
 const androidPage: SubPageContent = {
     metadata: {
-        title: 'OKX安卓版下载 | 欧意OKEx APK安装包(' + currentYear + '官方直连)',
-        description: 'OKX安卓APK官方下载。欧意OKEx安卓客户端最新版，解决华为、小米安装报毒问题。修复已知BUG，交易更流畅。',
+        title: 'OKX安卓版下载 | 欧意OKEx APK安装包(' + currentYear + '高速直连)',
+        description: 'OKX安卓APK平台下载。欧意OKEx安卓客户端最新版，解决华为、小米安装报毒问题。修复已知BUG，交易更流畅。',
     },
     hero: {
         title: 'OKX 安卓版下载',
-        subtitle: '官方 APK 直连下载 | 华为/小米安装教程',
+        subtitle: 'APK 直连下载 | 华为/小米安装教程',
         cta: '下载安卓版 APK',
     },
     intro: {
-        title: '为什么推荐下载官方 APK ?',
+        title: '为什么推荐下载APK ?',
         content: [
-            '<strong>OKX 官方 APK</strong> 是安卓用户获得最佳交易体验的首选方式。相比于应用商店版本，官方包更新速度更快，功能更全，且没有任何第三方广告干扰。',
-            '本站提供的下载链接均直连 OKX 官方服务器，文件完整无损，您可以放心下载安装。'
+            '<strong>OKX APK</strong> 是安卓用户获得最佳交易体验的首选方式。相比于应用商店版本，安装包更新速度更快，功能更全，且没有任何第三方广告干扰。',
+            '本站提供的下载链接均直连 OKX 下载服务器，文件完整无损，您可以放心下载安装。'
         ]
     },
     seoArticle: {

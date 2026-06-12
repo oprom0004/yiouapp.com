@@ -16,7 +16,7 @@ const links = [
     {
         href: '/yiou-app/android',
         label: '安卓版',
-        sub: '官方APK直连下载',
+        sub: 'APK直连下载',
         icon: Smartphone,
         gradient: 'from-green-500/20 to-emerald-600/10',
         iconColor: 'text-green-400',
