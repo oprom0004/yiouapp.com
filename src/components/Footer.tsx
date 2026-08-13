@@ -84,8 +84,19 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
+                <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col sm:flex-row items-center justify-between gap-4">
                     <p className="text-xs leading-5 text-slate-500">&copy; 2026 yiouapp.com. All rights reserved.</p>
+                    <div className="text-xs text-slate-400 flex items-center gap-2">
+                        <span>友情链接：</span>
+                        <a
+                            href="https://ouxpc.com/"
+                            target="_blank"
+                            rel="noopener"
+                            className="text-blue-400 hover:underline hover:text-blue-300 transition"
+                        >
+                            欧易 OKX 客户端导航 (ouxpc.com)
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
