@@ -18,9 +18,9 @@ function processFiles(dir) {
 
             // Remove 2026 dates
             content = content.replace(/2026版/g, '最新版');
-            content = content.replace(/2026易欧官网/g, '易欧官网更新');
-            content = content.replace(/2026最新版/g, '官方最新版');
-            content = content.replace(/2026官方直连/g, '高速官方直连');
+            content = content.replace(/2026易欧平台/g, '易欧平台更新');
+            content = content.replace(/2026最新版/g, '最新发布版');
+            content = content.replace(/2026安全直连/g, '高速安全直连');
             content = content.replace(/2026年 易欧 生态发展动态/g, '当前易欧生态最新发展动态');
             content = content.replace(/进入 2026 年/g, '如今');
             content = content.replace(/okx-android-2026.apk/g, 'okx-android-latest.apk');
